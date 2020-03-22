@@ -1,0 +1,27 @@
+.main {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "section"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: section;
+  font-size: medium;
+}
+
+footer {
+  grid-area: footer;
+}
+
+@media(min-width: 900px) {
+  section {
+    display: flex;
+    font-size: large;
+  }
+}
