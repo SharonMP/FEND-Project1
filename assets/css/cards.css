@@ -1,0 +1,15 @@
+.card {
+  padding: 10px 10px 10px 10px;
+  border: 2px solid #ddd;
+  margin: 1%;
+}
+
+@media (min-width: 900px) {
+  .cards {
+    display: flex;
+  }
+
+  .card {
+    flex: 1 0 10%;
+  }
+}
