@@ -1,11 +1,10 @@
 .main {
   display: grid;
   grid-template-areas:
-    "header"
-    "nav"
-    "h3"
-    "section"
-    "footer";
+    "header header header header"
+    "nav nav section section"
+    "nav nav section section"
+    "footer footer footer footer";
 }
 
 header {
@@ -28,6 +27,10 @@ section {
 
 footer {
   grid-area: footer;
+}
+
+li {
+  text-align:left;
 }
 
 @media(min-width: 900px) {
