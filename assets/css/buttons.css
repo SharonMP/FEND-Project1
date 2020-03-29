@@ -1,0 +1,10 @@
+.button {
+  background: gold;
+  color: navy;
+  text-align: center;
+  padding: 5px;
+}
+
+.button:hover {
+  background: silver;
+}
