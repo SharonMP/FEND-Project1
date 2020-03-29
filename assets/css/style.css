@@ -1,4 +1,5 @@
 @import "./cards.css";
+@import "./images.css";
 
 .main {
   display: grid;
