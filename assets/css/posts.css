@@ -1,0 +1,53 @@
+@import "./posts-images.css";
+
+article {
+  padding: 5px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "header header header header"
+    ". section section ."
+    ". section section ."
+    "footer footer footer footer";
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+section {
+  grid-area: section;
+  font-size: medium;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+}
+
+li {
+  text-align:left;
+}
+
+.addendum {
+  font-size: smaller;
+}
+
+@media(min-width: 900px) {
+  section {
+    display: flex;
+    font-size: large;
+  }
+}
