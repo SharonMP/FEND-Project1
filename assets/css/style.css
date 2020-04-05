@@ -43,3 +43,10 @@ li {
     font-size: large;
   }
 }
+
+@media(min-width: 1440px) {
+  section {
+    display: flex;
+    font-size: x-large;
+  }
+}
